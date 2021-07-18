@@ -15,7 +15,7 @@
 Some cool gadgets I made:
 {{PROJECTS}}
 
-luck?:
+Play some tarots ?
 
 <div display="block">
 <a href="https://thearcanagame.fandom.com/wiki/Tarot_Deck" target="_blank">
