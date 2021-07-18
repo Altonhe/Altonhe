@@ -208,9 +208,9 @@ func getRandomTarot() string {
 	reverse := `style="transform: rotate(180deg);"`
 	for _, tarot := range tarots[:3] {
 		if rand.Int()%2 != 0 {
-			tarotsMarkdown += fmt.Sprintf("<img src=\"https://cdn.jsdelivr.net/gh/Altonhe/Altonhe@master/tarot/%v\" width=\"25%s\" />", tarot, "%")
+			tarotsMarkdown += fmt.Sprintf("<img src=\"https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/%v\" width=\"25%s\" />", tarot, "%")
 		} else {
-			tarotsMarkdown += fmt.Sprintf("<img %v src=\"https://cdn.jsdelivr.net/gh/Altonhe/Altonhe@master/tarot/%v\" width=\"25%s\" />", reverse, tarot, "%")
+			tarotsMarkdown += fmt.Sprintf("<img %v src=\"https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/%v\" width=\"25%s\" />", reverse, tarot, "%")
 		}
 
 	}
