@@ -1,21 +1,19 @@
-<a href="https://github.com/wuhan005/mebeats"><img align="right" width="80px" src="https://mebeats.7ie.tech/rate.png"/></a>
 <img align="right" src="https://busy.moe/badges/2?style=for-the-badge"/></a>
 
-### Hi, I'm **E99p1ant**. 🍆
+### Hi, I'm **Alton**. 
 
 <a href="https://github.com/wuhan005?tab=repositories">
-  <img align="right" src="https://github-readme-stats.vercel.app/api?username=wuhan005&show_icons=true&title_color=000&icon_color=0099ff&text_color=000&bg_color=ffffff&hide_border=true" width="45%" />
+  <img align="right" src="https://github-readme-stats.vercel.app/api?username=Altonhe&count_private=true&show_icons=true&theme=cobalt&hide_border=true" width="45%" />
 </a>
 
-- 🐭 Focus on Golang.
-- 🏠 Blog at [github.red](https://github.red).
-- 💬 [Ask me something?](https://box.n3ko.co/_/e99)
-- 📩 Reach me by [sending me an email](mailto:i@github.red).
-- 💡 Check out my [side projects roadmap](https://github.com/users/wuhan005/projects/1).
-- 🤤 [Buy me a cup of coffee.](https://sponsors.github.red/)
-- 🔑 GPG key [`0FED108FC764D2CA`](https://github.com/wuhan005.gpg)
+- I'm a software developer who loves the web.
+- Interested in Android and mobile security.
+- Favorite game  publisher is paradox interactive
+
 
 Some cool gadgets I made:
 {{PROJECTS}}
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=e99p1ant)
+luck?:
+
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=Altonhe)
