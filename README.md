@@ -16,10 +16,10 @@ Some cool gadgets I made:
 - 🚂 [RProxy2](https://github.com/Altonhe/RProxy2) - Reverse proxy for steam community / [★20](https://github.com/Altonhe/RProxy2/stargazers) / `Magisk` `Shell`
 
 
-Play some tarots ?
+luck?:
 
 <div display="block">
 <a href="https://thearcanagame.fandom.com/wiki/Tarot_Deck" target="_blank">
-<img style="transform: rotate(180deg);" src="https://cdn.jsdelivr.net/gh/Altonhe/Altonhe@master/tarot/maj01.jpg" width="25%" /><img src="https://cdn.jsdelivr.net/gh/Altonhe/Altonhe@master/tarot/wands04.jpg" width="25%" /><img src="https://cdn.jsdelivr.net/gh/Altonhe/Altonhe@master/tarot/maj05.jpg" width="25%" />
+<img style="transform: rotate(180deg);" src="https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/pents14.jpg" width="25%" /><img src="https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/cups07.jpg" width="25%" /><img src="https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/cups08.jpg" width="25%" />
 </a>
 </div> 
