@@ -4,10 +4,12 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"math/rand"
 	"net/http"
 	"os"
 	"path"
 	"strings"
+	"time"
 
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
@@ -51,6 +53,9 @@ func main() {
 
 	projectsMarkdown := makeProjectMarkdown(profile.Projects)
 	readmeBytes = bytes.ReplaceAll(readmeBytes, []byte("{{PROJECTS}}"), []byte(projectsMarkdown))
+
+	tarotsMarkdown := getRandomTarot()
+	readmeBytes = bytes.ReplaceAll(readmeBytes, []byte("{{TAROTS}}"), []byte(tarotsMarkdown))
 
 	err = os.WriteFile("README.md", readmeBytes, 0644)
 	if err != nil {
@@ -115,4 +120,109 @@ func getRepoStarCount(link string) (int64, error) {
 		return 0, errors.Wrap(err, "unmarshal")
 	}
 	return meta.StargazersCount, nil
+}
+
+func getRandomTarot() string {
+	tarots := []string{
+		"cups01.jpg",
+		"cups02.jpg",
+		"cups03.jpg",
+		"cups04.jpg",
+		"cups05.jpg",
+		"cups06.jpg",
+		"cups07.jpg",
+		"cups08.jpg",
+		"cups09.jpg",
+		"cups10.jpg",
+		"cups11.jpg",
+		"cups12.jpg",
+		"cups13.jpg",
+		"cups14.jpg",
+		"maj00.jpg",
+		"maj01.jpg",
+		"maj02.jpg",
+		"maj03.jpg",
+		"maj04.jpg",
+		"maj05.jpg",
+		"maj06.jpg",
+		"maj07.jpg",
+		"maj08.jpg",
+		"maj09.jpg",
+		"maj10.jpg",
+		"maj11.jpg",
+		"maj12.jpg",
+		"maj13.jpg",
+		"maj14.jpg",
+		"maj15.jpg",
+		"maj16.jpg",
+		"maj17.jpg",
+		"maj18.jpg",
+		"maj19.jpg",
+		"maj20.jpg",
+		"maj21.jpg",
+		"pents01.jpg",
+		"pents02.jpg",
+		"pents03.jpg",
+		"pents04.jpg",
+		"pents05.jpg",
+		"pents06.jpg",
+		"pents07.jpg",
+		"pents08.jpg",
+		"pents09.jpg",
+		"pents10.jpg",
+		"pents11.jpg",
+		"pents12.jpg",
+		"pents13.jpg",
+		"pents14.jpg",
+		"swords01.jpg",
+		"swords02.jpg",
+		"swords03.jpg",
+		"swords04.jpg",
+		"swords05.jpg",
+		"swords06.jpg",
+		"swords07.jpg",
+		"swords08.jpg",
+		"swords09.jpg",
+		"swords10.jpg",
+		"swords11.jpg",
+		"swords12.jpg",
+		"swords13.jpg",
+		"swords14.jpg",
+		"wands01.jpg",
+		"wands02.jpg",
+		"wands03.jpg",
+		"wands04.jpg",
+		"wands05.jpg",
+		"wands06.jpg",
+		"wands07.jpg",
+		"wands08.jpg",
+		"wands09.jpg",
+		"wands10.jpg",
+		"wands11.jpg",
+		"wands12.jpg",
+		"wands13.jpg",
+		"wands14.jpg",
+	}
+	shuffle(tarots)
+	var tarotsMarkdown string
+	reverse := `style="transform: rotate(180deg);"`
+	for _, tarot := range tarots[:3] {
+		if rand.Int()%2 != 0 {
+			tarotsMarkdown += fmt.Sprintf("<img src=\"https://cdn.jsdelivr.net/gh/Altonhe/Altonhe@master/tarot/%v\" width=\"25%s\" />", tarot, "%")
+		} else {
+			tarotsMarkdown += fmt.Sprintf("<img %v src=\"https://cdn.jsdelivr.net/gh/Altonhe/Altonhe@master/tarot/%v\" width=\"25%s\" />", reverse, tarot, "%")
+		}
+
+	}
+	return tarotsMarkdown
+}
+
+func shuffle(slice []string) {
+	r := rand.New(rand.NewSource(time.Now().Unix()))
+	for len(slice) > 0 {
+		n := len(slice)
+		randIndex := r.Intn(n)
+		slice[n-1], slice[randIndex] = slice[randIndex], slice[n-1]
+		slice = slice[:n-1]
+	}
 }

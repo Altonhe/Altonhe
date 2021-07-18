@@ -13,12 +13,13 @@
 <img display="block" src="https://visitor-badge.laobi.icu/badge?page_id=Altonhe" />
 
 Some cool gadgets I made:
-{{PROJECTS}}
+- 🚂 [RProxy2](https://github.com/Altonhe/RProxy2) - Reverse proxy for steam community / [★20](https://github.com/Altonhe/RProxy2/stargazers) / `Magisk` `Shell`
 
-luck?:
+
+Play some tarots ?
 
 <div display="block">
 <a href="https://thearcanagame.fandom.com/wiki/Tarot_Deck" target="_blank">
-{{TAROTS}}
+<img style="transform: rotate(180deg);" src="https://cdn.jsdelivr.net/gh/Altonhe/Altonhe@master/tarot/maj01.jpg" width="25%" /><img src="https://cdn.jsdelivr.net/gh/Altonhe/Altonhe@master/tarot/wands04.jpg" width="25%" /><img src="https://cdn.jsdelivr.net/gh/Altonhe/Altonhe@master/tarot/maj05.jpg" width="25%" />
 </a>
 </div> 
