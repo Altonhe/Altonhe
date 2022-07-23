@@ -20,6 +20,6 @@ Play some tarots ?
 
 <div display="block">
 <a href="https://thearcanagame.fandom.com/wiki/Tarot_Deck" target="_blank">
-<img style="transform: rotate(180deg);" src="https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/pents06.jpg" width="25%" /><img src="https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/cups13.jpg" width="25%" /><img src="https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/cups05.jpg" width="25%" />
+<img style="transform: rotate(180deg);" src="https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/swords10.jpg" width="25%" /><img src="https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/cups07.jpg" width="25%" /><img src="https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/swords08.jpg" width="25%" />
 </a>
 </div> 
