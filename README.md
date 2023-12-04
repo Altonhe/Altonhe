@@ -2,7 +2,7 @@
 
 ### Hi, I'm **Alton**.
 
-<a href="https://github.com/wuhan005?tab=repositories">
+<a href="https://github.com/Altonhe?tab=repositories">
   <img align="right" src="https://github-readme-stats.vercel.app/api?username=Altonhe&count_private=true&show_icons=true&theme=cobalt&hide_border=true" width="45%" />
 </a>
 
