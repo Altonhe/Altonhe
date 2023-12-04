@@ -2,7 +2,7 @@
 
 ### Hi, I'm **Alton**.
 
-<a href="https://github.com/Altonhe?tab=repositories">
+<a href="https://github.com/wuhan005?tab=repositories">
   <img align="right" src="https://github-readme-stats.vercel.app/api?username=Altonhe&count_private=true&show_icons=true&theme=cobalt&hide_border=true" width="45%" />
 </a>
 
@@ -20,6 +20,6 @@ Play some tarots ?
 
 <div display="block">
 <a href="https://thearcanagame.fandom.com/wiki/Tarot_Deck" target="_blank">
-<img style="transform: rotate(180deg);" src="https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/maj02.jpg" width="25%" /><img src="https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/wands08.jpg" width="25%" /><img src="https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/swords04.jpg" width="25%" />
+<img style="transform: rotate(180deg);" src="https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/swords12.jpg" width="25%" /><img src="https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/cups14.jpg" width="25%" /><img src="https://raw.githubusercontent.com/Altonhe/Altonhe/master/tarot/cups11.jpg" width="25%" />
 </a>
 </div> 
